@@ -1,0 +1,122 @@
+[
+  {
+    "id": "user-admin",
+    "email": "admin@store.com",
+    "password": "$2a$10$DzK8P67TCdW/0hsf.sDMleJiCeLlYime5CLroGw1d6a/BXq6Gtebu",
+    "firstName": "Admin",
+    "lastName": "User",
+    "role": "admin",
+    "phone": "+1 555-0100",
+    "addresses": [
+      {
+        "id": "addr-admin-1",
+        "label": "Office",
+        "fullName": "Admin User",
+        "street": "100 Commerce Blvd",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA",
+        "phone": "+1 555-0100",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      "prod-001",
+      "prod-015"
+    ],
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "user-1",
+    "email": "john@example.com",
+    "password": "$2a$10$DzK8P67TCdW/0hsf.sDMleJiCeLlYime5CLroGw1d6a/BXq6Gtebu",
+    "firstName": "John",
+    "lastName": "Doe",
+    "role": "customer",
+    "phone": "+1 555-0101",
+    "addresses": [
+      {
+        "id": "addr-1-1",
+        "label": "Home",
+        "fullName": "John Doe",
+        "street": "123 Main St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001",
+        "country": "USA",
+        "phone": "+1 555-0101",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      "prod-004"
+    ],
+    "createdAt": "2025-02-15T00:00:00.000Z"
+  },
+  {
+    "id": "user-2",
+    "email": "jane@example.com",
+    "password": "$2a$10$DzK8P67TCdW/0hsf.sDMleJiCeLlYime5CLroGw1d6a/BXq6Gtebu",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "role": "customer",
+    "phone": "+1 555-0102",
+    "addresses": [
+      {
+        "id": "addr-2-1",
+        "label": "Home",
+        "fullName": "Jane Smith",
+        "street": "456 Oak Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601",
+        "country": "USA",
+        "phone": "+1 555-0102",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      "prod-005"
+    ],
+    "createdAt": "2025-03-01T00:00:00.000Z"
+  },
+  {
+    "id": "user-3",
+    "email": "mike@example.com",
+    "password": "$2a$10$DzK8P67TCdW/0hsf.sDMleJiCeLlYime5CLroGw1d6a/BXq6Gtebu",
+    "firstName": "Mike",
+    "lastName": "Johnson",
+    "role": "customer",
+    "addresses": [],
+    "wishlist": [],
+    "createdAt": "2025-04-10T00:00:00.000Z"
+  },
+  {
+    "id": "user-4",
+    "email": "sarah@example.com",
+    "password": "$2a$10$DzK8P67TCdW/0hsf.sDMleJiCeLlYime5CLroGw1d6a/BXq6Gtebu",
+    "firstName": "Sarah",
+    "lastName": "Williams",
+    "role": "customer",
+    "addresses": [
+      {
+        "id": "addr-4-1",
+        "label": "Apartment",
+        "fullName": "Sarah Williams",
+        "street": "789 Pine Rd",
+        "city": "Austin",
+        "state": "TX",
+        "zipCode": "73301",
+        "country": "USA",
+        "phone": "+1 555-0104",
+        "isDefault": true
+      }
+    ],
+    "wishlist": [
+      "prod-012",
+      "prod-025"
+    ],
+    "createdAt": "2025-05-20T00:00:00.000Z"
+  }
+]

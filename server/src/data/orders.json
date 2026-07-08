@@ -1,0 +1,209 @@
+[
+  {
+    "id": "order-001",
+    "orderNumber": "ORD-202506-482910",
+    "userId": "user-1",
+    "items": [
+      {
+        "productId": "prod-001",
+        "productName": "Wireless Bluetooth Headphones",
+        "productImage": "https://picsum.photos/seed/wireless-bluetooth-headphones0/800/800",
+        "variantId": "wireless-bluetooth-headphones-var-0",
+        "variantLabel": "Black",
+        "quantity": 1,
+        "unitPrice": 79.99
+      }
+    ],
+    "shippingAddress": {
+      "id": "addr-1-1",
+      "label": "Home",
+      "fullName": "John Doe",
+      "street": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90001",
+      "country": "USA",
+      "phone": "+1 555-0101",
+      "isDefault": true
+    },
+    "paymentMethod": "card",
+    "status": "Delivered",
+    "subtotal": 79.99,
+    "tax": 6.4,
+    "shipping": 5.99,
+    "discount": 0,
+    "total": 92.38,
+    "createdAt": "2025-06-01T10:30:00.000Z",
+    "updatedAt": "2025-06-05T14:00:00.000Z"
+  },
+  {
+    "id": "order-002",
+    "orderNumber": "ORD-202506-591823",
+    "userId": "user-2",
+    "items": [
+      {
+        "productId": "prod-010",
+        "productName": "Classic Denim Jacket",
+        "productImage": "https://picsum.photos/seed/classic-denim-jacket0/800/800",
+        "variantId": "classic-denim-jacket-var-1",
+        "variantLabel": "S / White",
+        "quantity": 1,
+        "unitPrice": 89.99
+      },
+      {
+        "productId": "prod-011",
+        "productName": "Organic Cotton T-Shirt",
+        "productImage": "https://picsum.photos/seed/organic-cotton-t-shirt0/800/800",
+        "quantity": 2,
+        "unitPrice": 24.99
+      }
+    ],
+    "shippingAddress": {
+      "id": "addr-2-1",
+      "label": "Home",
+      "fullName": "Jane Smith",
+      "street": "456 Oak Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA",
+      "phone": "+1 555-0102",
+      "isDefault": true
+    },
+    "paymentMethod": "cod",
+    "status": "Shipped",
+    "subtotal": 139.97,
+    "tax": 11.2,
+    "shipping": 0,
+    "discount": 10,
+    "total": 141.17,
+    "couponCode": "SAVE10",
+    "createdAt": "2025-06-10T08:15:00.000Z",
+    "updatedAt": "2025-06-12T09:00:00.000Z"
+  },
+  {
+    "id": "order-003",
+    "orderNumber": "ORD-202507-103847",
+    "userId": "user-1",
+    "items": [
+      {
+        "productId": "prod-020",
+        "productName": "Stainless Steel Cookware Set",
+        "productImage": "https://picsum.photos/seed/stainless-steel-cookware-set0/800/800",
+        "quantity": 1,
+        "unitPrice": 149.99
+      }
+    ],
+    "shippingAddress": {
+      "id": "addr-1-1",
+      "label": "Home",
+      "fullName": "John Doe",
+      "street": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90001",
+      "country": "USA",
+      "phone": "+1 555-0101",
+      "isDefault": true
+    },
+    "paymentMethod": "wallet",
+    "status": "Processing",
+    "subtotal": 149.99,
+    "tax": 12,
+    "shipping": 7.99,
+    "discount": 0,
+    "total": 169.98,
+    "createdAt": "2025-07-01T16:45:00.000Z",
+    "updatedAt": "2025-07-01T16:45:00.000Z"
+  },
+  {
+    "id": "order-004",
+    "orderNumber": "ORD-202505-774521",
+    "userId": "user-4",
+    "items": [
+      {
+        "productId": "prod-030",
+        "productName": "Yoga Mat Premium",
+        "productImage": "https://picsum.photos/seed/yoga-mat-premium0/800/800",
+        "quantity": 1,
+        "unitPrice": 39.99
+      }
+    ],
+    "shippingAddress": {
+      "id": "addr-4-1",
+      "label": "Apartment",
+      "fullName": "Sarah Williams",
+      "street": "789 Pine Rd",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA",
+      "phone": "+1 555-0104",
+      "isDefault": true
+    },
+    "paymentMethod": "card",
+    "status": "Cancelled",
+    "subtotal": 39.99,
+    "tax": 3.2,
+    "shipping": 5.99,
+    "discount": 0,
+    "total": 49.18,
+    "createdAt": "2025-05-15T11:00:00.000Z",
+    "updatedAt": "2025-05-16T08:30:00.000Z"
+  },
+  {
+    "id": "99ef9eaa-427a-45bd-a927-f20dc92c3b73",
+    "orderNumber": "ORD-202607-635958",
+    "items": [
+      {
+        "productId": "prod-004",
+        "productName": "Mechanical Keyboard RGB",
+        "productImage": "https://picsum.photos/seed/mechanical-keyboard-rgb0/800/800",
+        "variantId": "mechanical-keyboard-rgb-var-0",
+        "variantLabel": "Black",
+        "quantity": 2,
+        "unitPrice": 193.19
+      },
+      {
+        "productId": "prod-003",
+        "productName": "4K Ultra HD Monitor",
+        "productImage": "https://picsum.photos/seed/4k-ultra-hd-monitor0/800/800",
+        "variantId": "4k-ultra-hd-monitor-var-0",
+        "variantLabel": "Black",
+        "quantity": 2,
+        "unitPrice": 204.52
+      },
+      {
+        "productId": "prod-001",
+        "productName": "Wireless Bluetooth Headphones",
+        "productImage": "https://picsum.photos/seed/wireless-bluetooth-headphones0/800/800",
+        "variantId": "wireless-bluetooth-headphones-var-0",
+        "variantLabel": "Black",
+        "quantity": 1,
+        "unitPrice": 214.61
+      }
+    ],
+    "shippingAddress": {
+      "id": "checkout-addr",
+      "label": "Shipping",
+      "fullName": "John Doe",
+      "street": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90001",
+      "country": "USA",
+      "phone": "+1 555-0101",
+      "isDefault": false
+    },
+    "paymentMethod": "cod",
+    "subtotal": 1010.0300000000001,
+    "tax": 80.8,
+    "shipping": 0,
+    "discount": 0,
+    "total": 1090.83,
+    "userId": "user-1",
+    "status": "Processing",
+    "createdAt": "2026-07-07T14:36:02.451Z",
+    "updatedAt": "2026-07-07T14:36:02.451Z"
+  }
+]

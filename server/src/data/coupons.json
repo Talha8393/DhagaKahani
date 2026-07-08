@@ -1,0 +1,30 @@
+[
+  {
+    "code": "SAVE10",
+    "type": "fixed",
+    "value": 10,
+    "minOrder": 50,
+    "active": true
+  },
+  {
+    "code": "WELCOME15",
+    "type": "percentage",
+    "value": 15,
+    "minOrder": 30,
+    "active": true
+  },
+  {
+    "code": "FLAT20",
+    "type": "fixed",
+    "value": 20,
+    "minOrder": 100,
+    "active": true
+  },
+  {
+    "code": "EXPIRED",
+    "type": "percentage",
+    "value": 50,
+    "minOrder": 0,
+    "active": false
+  }
+]

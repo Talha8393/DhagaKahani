@@ -1,0 +1,3158 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Wireless Bluetooth Headphones",
+    "slug": "wireless-bluetooth-headphones",
+    "description": "Wireless Bluetooth Headphones delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium wireless bluetooth headphones with excellent build quality.",
+    "price": 214.61,
+    "images": [
+      "https://picsum.photos/seed/wireless-bluetooth-headphones0/800/800",
+      "https://picsum.photos/seed/wireless-bluetooth-headphones1/800/800",
+      "https://picsum.photos/seed/wireless-bluetooth-headphones2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 46,
+    "rating": 4.7,
+    "reviewCount": 40,
+    "reviews": [
+      {
+        "id": "prod-1-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.026Z"
+      },
+      {
+        "id": "prod-1-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.045Z"
+      },
+      {
+        "id": "prod-1-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.045Z"
+      },
+      {
+        "id": "prod-1-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.045Z"
+      },
+      {
+        "id": "prod-1-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.045Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "wireless-bluetooth-headphones-var-0",
+        "color": "Black",
+        "price": 214.61,
+        "stock": 23,
+        "sku": "WIRELESS-BLUETOOTH-HEADPHONES-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 146,
+    "createdAt": "2026-07-05T14:14:44.047Z"
+  },
+  {
+    "id": "prod-002",
+    "name": "Smart Watch Pro",
+    "slug": "smart-watch-pro",
+    "description": "Smart Watch Pro delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium smart watch pro with excellent build quality.",
+    "price": 295,
+    "images": [
+      "https://picsum.photos/seed/smart-watch-pro0/800/800",
+      "https://picsum.photos/seed/smart-watch-pro1/800/800",
+      "https://picsum.photos/seed/smart-watch-pro2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 20,
+    "rating": 4,
+    "reviewCount": 37,
+    "reviews": [
+      {
+        "id": "prod-2-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.048Z"
+      },
+      {
+        "id": "prod-2-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.048Z"
+      },
+      {
+        "id": "prod-2-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.048Z"
+      },
+      {
+        "id": "prod-2-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.048Z"
+      },
+      {
+        "id": "prod-2-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.048Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "smart-watch-pro-var-0",
+        "color": "Black",
+        "price": 295,
+        "stock": 43,
+        "sku": "SMART-WATCH-PRO-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 130,
+    "createdAt": "2026-07-03T14:14:44.048Z"
+  },
+  {
+    "id": "prod-003",
+    "name": "4K Ultra HD Monitor",
+    "slug": "4k-ultra-hd-monitor",
+    "description": "4K Ultra HD Monitor delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium 4k ultra hd monitor with excellent build quality.",
+    "price": 204.52,
+    "images": [
+      "https://picsum.photos/seed/4k-ultra-hd-monitor0/800/800",
+      "https://picsum.photos/seed/4k-ultra-hd-monitor1/800/800",
+      "https://picsum.photos/seed/4k-ultra-hd-monitor2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 22,
+    "rating": 4.8,
+    "reviewCount": 31,
+    "reviews": [
+      {
+        "id": "prod-3-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.048Z"
+      },
+      {
+        "id": "prod-3-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.048Z"
+      },
+      {
+        "id": "prod-3-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.048Z"
+      },
+      {
+        "id": "prod-3-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.048Z"
+      },
+      {
+        "id": "prod-3-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.048Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "4k-ultra-hd-monitor-var-0",
+        "color": "Black",
+        "price": 204.52,
+        "stock": 36,
+        "sku": "4K-ULTRA-HD-MONITOR-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 111,
+    "createdAt": "2026-07-01T14:14:44.048Z"
+  },
+  {
+    "id": "prod-004",
+    "name": "Mechanical Keyboard RGB",
+    "slug": "mechanical-keyboard-rgb",
+    "description": "Mechanical Keyboard RGB delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium mechanical keyboard rgb with excellent build quality.",
+    "price": 193.19,
+    "images": [
+      "https://picsum.photos/seed/mechanical-keyboard-rgb0/800/800",
+      "https://picsum.photos/seed/mechanical-keyboard-rgb1/800/800",
+      "https://picsum.photos/seed/mechanical-keyboard-rgb2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 13,
+    "rating": 4.8,
+    "reviewCount": 33,
+    "reviews": [
+      {
+        "id": "prod-4-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.048Z"
+      },
+      {
+        "id": "prod-4-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.048Z"
+      },
+      {
+        "id": "prod-4-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.048Z"
+      },
+      {
+        "id": "prod-4-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.048Z"
+      },
+      {
+        "id": "prod-4-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.048Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "mechanical-keyboard-rgb-var-0",
+        "color": "Black",
+        "price": 193.19,
+        "stock": 38,
+        "sku": "MECHANICAL-KEYBOARD-RGB-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": true,
+    "popularity": 111,
+    "createdAt": "2026-06-29T14:14:44.048Z"
+  },
+  {
+    "id": "prod-005",
+    "name": "Portable SSD 1TB",
+    "slug": "portable-ssd-1tb",
+    "description": "Portable SSD 1TB delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium portable ssd 1tb with excellent build quality.",
+    "price": 154.18,
+    "discountPrice": 131.05,
+    "images": [
+      "https://picsum.photos/seed/portable-ssd-1tb0/800/800",
+      "https://picsum.photos/seed/portable-ssd-1tb1/800/800",
+      "https://picsum.photos/seed/portable-ssd-1tb2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 22,
+    "rating": 4.5,
+    "reviewCount": 40,
+    "reviews": [
+      {
+        "id": "prod-5-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.048Z"
+      },
+      {
+        "id": "prod-5-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.048Z"
+      },
+      {
+        "id": "prod-5-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.048Z"
+      },
+      {
+        "id": "prod-5-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.048Z"
+      },
+      {
+        "id": "prod-5-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.048Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "portable-ssd-1tb-var-0",
+        "color": "Black",
+        "price": 131.05,
+        "stock": 21,
+        "sku": "PORTABLE-SSD-1TB-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 117,
+    "createdAt": "2026-06-27T14:14:44.048Z"
+  },
+  {
+    "id": "prod-006",
+    "name": "USB-C Hub Adapter",
+    "slug": "usb-c-hub-adapter",
+    "description": "USB-C Hub Adapter delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium usb-c hub adapter with excellent build quality.",
+    "price": 277.71,
+    "discountPrice": 236.05,
+    "images": [
+      "https://picsum.photos/seed/usb-c-hub-adapter0/800/800",
+      "https://picsum.photos/seed/usb-c-hub-adapter1/800/800",
+      "https://picsum.photos/seed/usb-c-hub-adapter2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 20,
+    "rating": 4.3,
+    "reviewCount": 12,
+    "reviews": [
+      {
+        "id": "prod-6-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.048Z"
+      },
+      {
+        "id": "prod-6-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.048Z"
+      },
+      {
+        "id": "prod-6-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.048Z"
+      },
+      {
+        "id": "prod-6-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.048Z"
+      },
+      {
+        "id": "prod-6-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.048Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "usb-c-hub-adapter-var-0",
+        "color": "Black",
+        "price": 236.05,
+        "stock": 22,
+        "sku": "USB-C-HUB-ADAPTER-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 117,
+    "createdAt": "2026-06-25T14:14:44.048Z"
+  },
+  {
+    "id": "prod-007",
+    "name": "Wireless Mouse Ergonomic",
+    "slug": "wireless-mouse-ergonomic",
+    "description": "Wireless Mouse Ergonomic delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium wireless mouse ergonomic with excellent build quality.",
+    "price": 157.34,
+    "images": [
+      "https://picsum.photos/seed/wireless-mouse-ergonomic0/800/800",
+      "https://picsum.photos/seed/wireless-mouse-ergonomic1/800/800",
+      "https://picsum.photos/seed/wireless-mouse-ergonomic2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 13,
+    "rating": 4.4,
+    "reviewCount": 15,
+    "reviews": [
+      {
+        "id": "prod-7-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.051Z"
+      },
+      {
+        "id": "prod-7-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.051Z"
+      },
+      {
+        "id": "prod-7-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.051Z"
+      },
+      {
+        "id": "prod-7-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.051Z"
+      },
+      {
+        "id": "prod-7-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.051Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "wireless-mouse-ergonomic-var-0",
+        "color": "Black",
+        "price": 157.34,
+        "stock": 22,
+        "sku": "WIRELESS-MOUSE-ERGONOMIC-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": true,
+    "popularity": 111,
+    "createdAt": "2026-06-23T14:14:44.051Z"
+  },
+  {
+    "id": "prod-008",
+    "name": "Noise Cancelling Earbuds",
+    "slug": "noise-cancelling-earbuds",
+    "description": "Noise Cancelling Earbuds delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium noise cancelling earbuds with excellent build quality.",
+    "price": 27.82,
+    "images": [
+      "https://picsum.photos/seed/noise-cancelling-earbuds0/800/800",
+      "https://picsum.photos/seed/noise-cancelling-earbuds1/800/800",
+      "https://picsum.photos/seed/noise-cancelling-earbuds2/800/800"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 15,
+    "rating": 4.7,
+    "reviewCount": 10,
+    "reviews": [
+      {
+        "id": "prod-8-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-8-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-8-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-8-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-8-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "noise-cancelling-earbuds-var-0",
+        "color": "Black",
+        "price": 27.82,
+        "stock": 44,
+        "sku": "NOISE-CANCELLING-EARBUDS-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 94,
+    "createdAt": "2026-06-21T14:14:44.052Z"
+  },
+  {
+    "id": "prod-009",
+    "name": "Classic Denim Jacket",
+    "slug": "classic-denim-jacket",
+    "description": "Classic Denim Jacket delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium classic denim jacket with excellent build quality.",
+    "price": 130.73,
+    "images": [
+      "https://picsum.photos/seed/classic-denim-jacket0/800/800",
+      "https://picsum.photos/seed/classic-denim-jacket1/800/800",
+      "https://picsum.photos/seed/classic-denim-jacket2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 21,
+    "rating": 3.9,
+    "reviewCount": 32,
+    "reviews": [
+      {
+        "id": "prod-9-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-9-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-9-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-9-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-9-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "classic-denim-jacket-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 130.73,
+        "stock": 5,
+        "sku": "CLASSIC-DENIM-JACKET-XS"
+      },
+      {
+        "id": "classic-denim-jacket-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 130.73,
+        "stock": 8,
+        "sku": "CLASSIC-DENIM-JACKET-S"
+      },
+      {
+        "id": "classic-denim-jacket-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 130.73,
+        "stock": 11,
+        "sku": "CLASSIC-DENIM-JACKET-M"
+      },
+      {
+        "id": "classic-denim-jacket-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 130.73,
+        "stock": 14,
+        "sku": "CLASSIC-DENIM-JACKET-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 92,
+    "createdAt": "2026-06-19T14:14:44.052Z"
+  },
+  {
+    "id": "prod-010",
+    "name": "Organic Cotton T-Shirt",
+    "slug": "organic-cotton-t-shirt",
+    "description": "Organic Cotton T-Shirt delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium organic cotton t-shirt with excellent build quality.",
+    "price": 110.75,
+    "images": [
+      "https://picsum.photos/seed/organic-cotton-t-shirt0/800/800",
+      "https://picsum.photos/seed/organic-cotton-t-shirt1/800/800",
+      "https://picsum.photos/seed/organic-cotton-t-shirt2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 37,
+    "rating": 4.4,
+    "reviewCount": 26,
+    "reviews": [
+      {
+        "id": "prod-10-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-10-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-10-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-10-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-10-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "organic-cotton-t-shirt-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 110.75,
+        "stock": 5,
+        "sku": "ORGANIC-COTTON-T-SHIRT-XS"
+      },
+      {
+        "id": "organic-cotton-t-shirt-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 110.75,
+        "stock": 8,
+        "sku": "ORGANIC-COTTON-T-SHIRT-S"
+      },
+      {
+        "id": "organic-cotton-t-shirt-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 110.75,
+        "stock": 11,
+        "sku": "ORGANIC-COTTON-T-SHIRT-M"
+      },
+      {
+        "id": "organic-cotton-t-shirt-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 110.75,
+        "stock": 14,
+        "sku": "ORGANIC-COTTON-T-SHIRT-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 125,
+    "createdAt": "2026-06-17T14:14:44.052Z"
+  },
+  {
+    "id": "prod-011",
+    "name": "Slim Fit Chinos",
+    "slug": "slim-fit-chinos",
+    "description": "Slim Fit Chinos delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium slim fit chinos with excellent build quality.",
+    "price": 145.6,
+    "images": [
+      "https://picsum.photos/seed/slim-fit-chinos0/800/800",
+      "https://picsum.photos/seed/slim-fit-chinos1/800/800",
+      "https://picsum.photos/seed/slim-fit-chinos2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 34,
+    "rating": 4.8,
+    "reviewCount": 45,
+    "reviews": [
+      {
+        "id": "prod-11-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-11-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-11-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-11-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-11-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "slim-fit-chinos-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 145.6,
+        "stock": 5,
+        "sku": "SLIM-FIT-CHINOS-XS"
+      },
+      {
+        "id": "slim-fit-chinos-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 145.6,
+        "stock": 8,
+        "sku": "SLIM-FIT-CHINOS-S"
+      },
+      {
+        "id": "slim-fit-chinos-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 145.6,
+        "stock": 11,
+        "sku": "SLIM-FIT-CHINOS-M"
+      },
+      {
+        "id": "slim-fit-chinos-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 145.6,
+        "stock": 14,
+        "sku": "SLIM-FIT-CHINOS-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 122,
+    "createdAt": "2026-06-15T14:14:44.052Z"
+  },
+  {
+    "id": "prod-012",
+    "name": "Wool Blend Sweater",
+    "slug": "wool-blend-sweater",
+    "description": "Wool Blend Sweater delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium wool blend sweater with excellent build quality.",
+    "price": 140.4,
+    "discountPrice": 119.34,
+    "images": [
+      "https://picsum.photos/seed/wool-blend-sweater0/800/800",
+      "https://picsum.photos/seed/wool-blend-sweater1/800/800",
+      "https://picsum.photos/seed/wool-blend-sweater2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 10,
+    "rating": 4,
+    "reviewCount": 38,
+    "reviews": [
+      {
+        "id": "prod-12-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-12-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-12-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-12-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-12-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "wool-blend-sweater-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 119.34,
+        "stock": 5,
+        "sku": "WOOL-BLEND-SWEATER-XS"
+      },
+      {
+        "id": "wool-blend-sweater-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 119.34,
+        "stock": 8,
+        "sku": "WOOL-BLEND-SWEATER-S"
+      },
+      {
+        "id": "wool-blend-sweater-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 119.34,
+        "stock": 11,
+        "sku": "WOOL-BLEND-SWEATER-M"
+      },
+      {
+        "id": "wool-blend-sweater-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 119.34,
+        "stock": 14,
+        "sku": "WOOL-BLEND-SWEATER-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 104,
+    "createdAt": "2026-06-13T14:14:44.052Z"
+  },
+  {
+    "id": "prod-013",
+    "name": "Running Shorts",
+    "slug": "running-shorts",
+    "description": "Running Shorts delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium running shorts with excellent build quality.",
+    "price": 216.31,
+    "discountPrice": 183.86,
+    "images": [
+      "https://picsum.photos/seed/running-shorts0/800/800",
+      "https://picsum.photos/seed/running-shorts1/800/800",
+      "https://picsum.photos/seed/running-shorts2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 22,
+    "rating": 3.7,
+    "reviewCount": 13,
+    "reviews": [
+      {
+        "id": "prod-13-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-13-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-13-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-13-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-13-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "running-shorts-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 183.86,
+        "stock": 5,
+        "sku": "RUNNING-SHORTS-XS"
+      },
+      {
+        "id": "running-shorts-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 183.86,
+        "stock": 8,
+        "sku": "RUNNING-SHORTS-S"
+      },
+      {
+        "id": "running-shorts-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 183.86,
+        "stock": 11,
+        "sku": "RUNNING-SHORTS-M"
+      },
+      {
+        "id": "running-shorts-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 183.86,
+        "stock": 14,
+        "sku": "RUNNING-SHORTS-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 123,
+    "createdAt": "2026-06-11T14:14:44.052Z"
+  },
+  {
+    "id": "prod-014",
+    "name": "Linen Summer Dress",
+    "slug": "linen-summer-dress",
+    "description": "Linen Summer Dress delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium linen summer dress with excellent build quality.",
+    "price": 116.57,
+    "discountPrice": 99.08,
+    "images": [
+      "https://picsum.photos/seed/linen-summer-dress0/800/800",
+      "https://picsum.photos/seed/linen-summer-dress1/800/800",
+      "https://picsum.photos/seed/linen-summer-dress2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 22,
+    "rating": 4.9,
+    "reviewCount": 39,
+    "reviews": [
+      {
+        "id": "prod-14-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-14-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-14-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-14-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-14-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "linen-summer-dress-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 99.08,
+        "stock": 5,
+        "sku": "LINEN-SUMMER-DRESS-XS"
+      },
+      {
+        "id": "linen-summer-dress-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 99.08,
+        "stock": 8,
+        "sku": "LINEN-SUMMER-DRESS-S"
+      },
+      {
+        "id": "linen-summer-dress-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 99.08,
+        "stock": 11,
+        "sku": "LINEN-SUMMER-DRESS-M"
+      },
+      {
+        "id": "linen-summer-dress-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 99.08,
+        "stock": 14,
+        "sku": "LINEN-SUMMER-DRESS-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 92,
+    "createdAt": "2026-06-09T14:14:44.052Z"
+  },
+  {
+    "id": "prod-015",
+    "name": "Leather Belt",
+    "slug": "leather-belt",
+    "description": "Leather Belt delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium leather belt with excellent build quality.",
+    "price": 44.63,
+    "images": [
+      "https://picsum.photos/seed/leather-belt0/800/800",
+      "https://picsum.photos/seed/leather-belt1/800/800",
+      "https://picsum.photos/seed/leather-belt2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 13,
+    "rating": 4.1,
+    "reviewCount": 9,
+    "reviews": [
+      {
+        "id": "prod-15-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-15-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-15-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-15-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-15-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "leather-belt-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 44.63,
+        "stock": 5,
+        "sku": "LEATHER-BELT-XS"
+      },
+      {
+        "id": "leather-belt-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 44.63,
+        "stock": 8,
+        "sku": "LEATHER-BELT-S"
+      },
+      {
+        "id": "leather-belt-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 44.63,
+        "stock": 11,
+        "sku": "LEATHER-BELT-M"
+      },
+      {
+        "id": "leather-belt-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 44.63,
+        "stock": 14,
+        "sku": "LEATHER-BELT-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 104,
+    "createdAt": "2026-06-07T14:14:44.052Z"
+  },
+  {
+    "id": "prod-016",
+    "name": "Athletic Hoodie",
+    "slug": "athletic-hoodie",
+    "description": "Athletic Hoodie delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium athletic hoodie with excellent build quality.",
+    "price": 192.46,
+    "images": [
+      "https://picsum.photos/seed/athletic-hoodie0/800/800",
+      "https://picsum.photos/seed/athletic-hoodie1/800/800",
+      "https://picsum.photos/seed/athletic-hoodie2/800/800"
+    ],
+    "category": "Clothing",
+    "categorySlug": "clothing",
+    "stock": 42,
+    "rating": 4,
+    "reviewCount": 24,
+    "reviews": [
+      {
+        "id": "prod-16-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.052Z"
+      },
+      {
+        "id": "prod-16-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.052Z"
+      },
+      {
+        "id": "prod-16-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.052Z"
+      },
+      {
+        "id": "prod-16-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.052Z"
+      },
+      {
+        "id": "prod-16-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.052Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "athletic-hoodie-var-0",
+        "size": "XS",
+        "color": "Black",
+        "price": 192.46,
+        "stock": 5,
+        "sku": "ATHLETIC-HOODIE-XS"
+      },
+      {
+        "id": "athletic-hoodie-var-1",
+        "size": "S",
+        "color": "White",
+        "price": 192.46,
+        "stock": 8,
+        "sku": "ATHLETIC-HOODIE-S"
+      },
+      {
+        "id": "athletic-hoodie-var-2",
+        "size": "M",
+        "color": "Navy",
+        "price": 192.46,
+        "stock": 11,
+        "sku": "ATHLETIC-HOODIE-M"
+      },
+      {
+        "id": "athletic-hoodie-var-3",
+        "size": "L",
+        "color": "Gray",
+        "price": 192.46,
+        "stock": 14,
+        "sku": "ATHLETIC-HOODIE-L"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Cotton Blend",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 105,
+    "createdAt": "2026-06-05T14:14:44.052Z"
+  },
+  {
+    "id": "prod-017",
+    "name": "Stainless Steel Cookware Set",
+    "slug": "stainless-steel-cookware-set",
+    "description": "Stainless Steel Cookware Set delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium stainless steel cookware set with excellent build quality.",
+    "price": 295.37,
+    "discountPrice": 251.06,
+    "images": [
+      "https://picsum.photos/seed/stainless-steel-cookware-set0/800/800",
+      "https://picsum.photos/seed/stainless-steel-cookware-set1/800/800",
+      "https://picsum.photos/seed/stainless-steel-cookware-set2/800/800"
+    ],
+    "category": "Home & Kitchen",
+    "categorySlug": "home-kitchen",
+    "stock": 10,
+    "rating": 3.6,
+    "reviewCount": 8,
+    "reviews": [
+      {
+        "id": "prod-17-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-17-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-17-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-17-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-17-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "stainless-steel-cookware-set-var-0",
+        "color": "Black",
+        "price": 251.06,
+        "stock": 21,
+        "sku": "STAINLESS-STEEL-COOKWARE-SET-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 116,
+    "createdAt": "2026-06-03T14:14:44.053Z"
+  },
+  {
+    "id": "prod-018",
+    "name": "Ceramic Coffee Mug Set",
+    "slug": "ceramic-coffee-mug-set",
+    "description": "Ceramic Coffee Mug Set delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium ceramic coffee mug set with excellent build quality.",
+    "price": 148.53,
+    "images": [
+      "https://picsum.photos/seed/ceramic-coffee-mug-set0/800/800",
+      "https://picsum.photos/seed/ceramic-coffee-mug-set1/800/800",
+      "https://picsum.photos/seed/ceramic-coffee-mug-set2/800/800"
+    ],
+    "category": "Home & Kitchen",
+    "categorySlug": "home-kitchen",
+    "stock": 12,
+    "rating": 4.6,
+    "reviewCount": 15,
+    "reviews": [
+      {
+        "id": "prod-18-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-18-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-18-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-18-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-18-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "ceramic-coffee-mug-set-var-0",
+        "color": "Black",
+        "price": 148.53,
+        "stock": 15,
+        "sku": "CERAMIC-COFFEE-MUG-SET-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 90,
+    "createdAt": "2026-06-01T14:14:44.053Z"
+  },
+  {
+    "id": "prod-019",
+    "name": "Memory Foam Pillow",
+    "slug": "memory-foam-pillow",
+    "description": "Memory Foam Pillow delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium memory foam pillow with excellent build quality.",
+    "price": 296.28,
+    "images": [
+      "https://picsum.photos/seed/memory-foam-pillow0/800/800",
+      "https://picsum.photos/seed/memory-foam-pillow1/800/800",
+      "https://picsum.photos/seed/memory-foam-pillow2/800/800"
+    ],
+    "category": "Home & Kitchen",
+    "categorySlug": "home-kitchen",
+    "stock": 14,
+    "rating": 4.9,
+    "reviewCount": 17,
+    "reviews": [
+      {
+        "id": "prod-19-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-19-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-19-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-19-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-19-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "memory-foam-pillow-var-0",
+        "color": "Black",
+        "price": 296.28,
+        "stock": 36,
+        "sku": "MEMORY-FOAM-PILLOW-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 111,
+    "createdAt": "2026-05-30T14:14:44.053Z"
+  },
+  {
+    "id": "prod-020",
+    "name": "LED Desk Lamp",
+    "slug": "led-desk-lamp",
+    "description": "LED Desk Lamp delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium led desk lamp with excellent build quality.",
+    "price": 139.11,
+    "discountPrice": 118.24,
+    "images": [
+      "https://picsum.photos/seed/led-desk-lamp0/800/800",
+      "https://picsum.photos/seed/led-desk-lamp1/800/800",
+      "https://picsum.photos/seed/led-desk-lamp2/800/800"
+    ],
+    "category": "Home & Kitchen",
+    "categorySlug": "home-kitchen",
+    "stock": 49,
+    "rating": 4.5,
+    "reviewCount": 22,
+    "reviews": [
+      {
+        "id": "prod-20-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-20-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-20-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-20-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-20-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "led-desk-lamp-var-0",
+        "color": "Black",
+        "price": 118.24,
+        "stock": 40,
+        "sku": "LED-DESK-LAMP-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 107,
+    "createdAt": "2026-05-28T14:14:44.053Z"
+  },
+  {
+    "id": "prod-021",
+    "name": "Non-Stick Frying Pan",
+    "slug": "non-stick-frying-pan",
+    "description": "Non-Stick Frying Pan delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium non-stick frying pan with excellent build quality.",
+    "price": 175.5,
+    "images": [
+      "https://picsum.photos/seed/non-stick-frying-pan0/800/800",
+      "https://picsum.photos/seed/non-stick-frying-pan1/800/800",
+      "https://picsum.photos/seed/non-stick-frying-pan2/800/800"
+    ],
+    "category": "Home & Kitchen",
+    "categorySlug": "home-kitchen",
+    "stock": 48,
+    "rating": 3.6,
+    "reviewCount": 10,
+    "reviews": [
+      {
+        "id": "prod-21-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-21-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-21-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-21-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-21-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "non-stick-frying-pan-var-0",
+        "color": "Black",
+        "price": 175.5,
+        "stock": 40,
+        "sku": "NON-STICK-FRYING-PAN-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": true,
+    "isNew": false,
+    "popularity": 82,
+    "createdAt": "2026-05-26T14:14:44.053Z"
+  },
+  {
+    "id": "prod-022",
+    "name": "Bamboo Cutting Board",
+    "slug": "bamboo-cutting-board",
+    "description": "Bamboo Cutting Board delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium bamboo cutting board with excellent build quality.",
+    "price": 293.59,
+    "discountPrice": 249.55,
+    "images": [
+      "https://picsum.photos/seed/bamboo-cutting-board0/800/800",
+      "https://picsum.photos/seed/bamboo-cutting-board1/800/800",
+      "https://picsum.photos/seed/bamboo-cutting-board2/800/800"
+    ],
+    "category": "Home & Kitchen",
+    "categorySlug": "home-kitchen",
+    "stock": 27,
+    "rating": 4.2,
+    "reviewCount": 15,
+    "reviews": [
+      {
+        "id": "prod-22-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-22-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-22-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-22-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-22-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "bamboo-cutting-board-var-0",
+        "color": "Black",
+        "price": 249.55,
+        "stock": 18,
+        "sku": "BAMBOO-CUTTING-BOARD-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 80,
+    "createdAt": "2026-05-24T14:14:44.053Z"
+  },
+  {
+    "id": "prod-023",
+    "name": "Vacuum Insulated Bottle",
+    "slug": "vacuum-insulated-bottle",
+    "description": "Vacuum Insulated Bottle delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium vacuum insulated bottle with excellent build quality.",
+    "price": 37.18,
+    "discountPrice": 31.6,
+    "images": [
+      "https://picsum.photos/seed/vacuum-insulated-bottle0/800/800",
+      "https://picsum.photos/seed/vacuum-insulated-bottle1/800/800",
+      "https://picsum.photos/seed/vacuum-insulated-bottle2/800/800"
+    ],
+    "category": "Home & Kitchen",
+    "categorySlug": "home-kitchen",
+    "stock": 45,
+    "rating": 4,
+    "reviewCount": 11,
+    "reviews": [
+      {
+        "id": "prod-23-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-23-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-23-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-23-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-23-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vacuum-insulated-bottle-var-0",
+        "color": "Black",
+        "price": 31.6,
+        "stock": 42,
+        "sku": "VACUUM-INSULATED-BOTTLE-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 87,
+    "createdAt": "2026-05-22T14:14:44.053Z"
+  },
+  {
+    "id": "prod-024",
+    "name": "Yoga Mat Premium",
+    "slug": "yoga-mat-premium",
+    "description": "Yoga Mat Premium delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium yoga mat premium with excellent build quality.",
+    "price": 168.75,
+    "images": [
+      "https://picsum.photos/seed/yoga-mat-premium0/800/800",
+      "https://picsum.photos/seed/yoga-mat-premium1/800/800",
+      "https://picsum.photos/seed/yoga-mat-premium2/800/800"
+    ],
+    "category": "Sports & Outdoors",
+    "categorySlug": "sports-outdoors",
+    "stock": 44,
+    "rating": 4.7,
+    "reviewCount": 9,
+    "reviews": [
+      {
+        "id": "prod-24-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-24-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-24-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-24-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-24-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "yoga-mat-premium-var-0",
+        "color": "Black",
+        "price": 168.75,
+        "stock": 15,
+        "sku": "YOGA-MAT-PREMIUM-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 100,
+    "createdAt": "2026-05-20T14:14:44.053Z"
+  },
+  {
+    "id": "prod-025",
+    "name": "Camping Tent 4-Person",
+    "slug": "camping-tent-4-person",
+    "description": "Camping Tent 4-Person delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium camping tent 4-person with excellent build quality.",
+    "price": 89.3,
+    "images": [
+      "https://picsum.photos/seed/camping-tent-4-person0/800/800",
+      "https://picsum.photos/seed/camping-tent-4-person1/800/800",
+      "https://picsum.photos/seed/camping-tent-4-person2/800/800"
+    ],
+    "category": "Sports & Outdoors",
+    "categorySlug": "sports-outdoors",
+    "stock": 48,
+    "rating": 3.5,
+    "reviewCount": 11,
+    "reviews": [
+      {
+        "id": "prod-25-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-25-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-25-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-25-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-25-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "camping-tent-4-person-var-0",
+        "color": "Black",
+        "price": 89.3,
+        "stock": 29,
+        "sku": "CAMPING-TENT-4-PERSON-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 93,
+    "createdAt": "2026-05-18T14:14:44.053Z"
+  },
+  {
+    "id": "prod-026",
+    "name": "Adjustable Dumbbells",
+    "slug": "adjustable-dumbbells",
+    "description": "Adjustable Dumbbells delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium adjustable dumbbells with excellent build quality.",
+    "price": 53.63,
+    "images": [
+      "https://picsum.photos/seed/adjustable-dumbbells0/800/800",
+      "https://picsum.photos/seed/adjustable-dumbbells1/800/800",
+      "https://picsum.photos/seed/adjustable-dumbbells2/800/800"
+    ],
+    "category": "Sports & Outdoors",
+    "categorySlug": "sports-outdoors",
+    "stock": 29,
+    "rating": 4.9,
+    "reviewCount": 20,
+    "reviews": [
+      {
+        "id": "prod-26-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-26-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-26-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-26-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-26-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "adjustable-dumbbells-var-0",
+        "color": "Black",
+        "price": 53.63,
+        "stock": 41,
+        "sku": "ADJUSTABLE-DUMBBELLS-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 87,
+    "createdAt": "2026-05-16T14:14:44.053Z"
+  },
+  {
+    "id": "prod-027",
+    "name": "Hiking Backpack 40L",
+    "slug": "hiking-backpack-40l",
+    "description": "Hiking Backpack 40L delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium hiking backpack 40l with excellent build quality.",
+    "price": 173.78,
+    "images": [
+      "https://picsum.photos/seed/hiking-backpack-40l0/800/800",
+      "https://picsum.photos/seed/hiking-backpack-40l1/800/800",
+      "https://picsum.photos/seed/hiking-backpack-40l2/800/800"
+    ],
+    "category": "Sports & Outdoors",
+    "categorySlug": "sports-outdoors",
+    "stock": 29,
+    "rating": 4.6,
+    "reviewCount": 19,
+    "reviews": [
+      {
+        "id": "prod-27-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-27-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-27-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-27-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-27-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "hiking-backpack-40l-var-0",
+        "color": "Black",
+        "price": 173.78,
+        "stock": 44,
+        "sku": "HIKING-BACKPACK-40L-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 104,
+    "createdAt": "2026-05-14T14:14:44.053Z"
+  },
+  {
+    "id": "prod-028",
+    "name": "Resistance Bands Set",
+    "slug": "resistance-bands-set",
+    "description": "Resistance Bands Set delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium resistance bands set with excellent build quality.",
+    "price": 97.99,
+    "discountPrice": 83.29,
+    "images": [
+      "https://picsum.photos/seed/resistance-bands-set0/800/800",
+      "https://picsum.photos/seed/resistance-bands-set1/800/800",
+      "https://picsum.photos/seed/resistance-bands-set2/800/800"
+    ],
+    "category": "Sports & Outdoors",
+    "categorySlug": "sports-outdoors",
+    "stock": 29,
+    "rating": 4.1,
+    "reviewCount": 36,
+    "reviews": [
+      {
+        "id": "prod-28-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-28-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-28-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-28-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-28-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "resistance-bands-set-var-0",
+        "color": "Black",
+        "price": 83.29,
+        "stock": 23,
+        "sku": "RESISTANCE-BANDS-SET-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 82,
+    "createdAt": "2026-05-12T14:14:44.053Z"
+  },
+  {
+    "id": "prod-029",
+    "name": "Cycling Helmet",
+    "slug": "cycling-helmet",
+    "description": "Cycling Helmet delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium cycling helmet with excellent build quality.",
+    "price": 289.93,
+    "discountPrice": 246.44,
+    "images": [
+      "https://picsum.photos/seed/cycling-helmet0/800/800",
+      "https://picsum.photos/seed/cycling-helmet1/800/800",
+      "https://picsum.photos/seed/cycling-helmet2/800/800"
+    ],
+    "category": "Sports & Outdoors",
+    "categorySlug": "sports-outdoors",
+    "stock": 27,
+    "rating": 4,
+    "reviewCount": 21,
+    "reviews": [
+      {
+        "id": "prod-29-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-29-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-29-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-29-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-29-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "cycling-helmet-var-0",
+        "color": "Black",
+        "price": 246.44,
+        "stock": 35,
+        "sku": "CYCLING-HELMET-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 91,
+    "createdAt": "2026-05-10T14:14:44.053Z"
+  },
+  {
+    "id": "prod-030",
+    "name": "Hydrating Face Serum",
+    "slug": "hydrating-face-serum",
+    "description": "Hydrating Face Serum delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium hydrating face serum with excellent build quality.",
+    "price": 267.35,
+    "discountPrice": 227.25,
+    "images": [
+      "https://picsum.photos/seed/hydrating-face-serum0/800/800",
+      "https://picsum.photos/seed/hydrating-face-serum1/800/800",
+      "https://picsum.photos/seed/hydrating-face-serum2/800/800"
+    ],
+    "category": "Beauty",
+    "categorySlug": "beauty",
+    "stock": 40,
+    "rating": 4.7,
+    "reviewCount": 47,
+    "reviews": [
+      {
+        "id": "prod-30-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-30-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-30-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-30-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-30-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "hydrating-face-serum-var-0",
+        "color": "Black",
+        "price": 227.25,
+        "stock": 22,
+        "sku": "HYDRATING-FACE-SERUM-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": false,
+    "popularity": 103,
+    "createdAt": "2026-05-08T14:14:44.053Z"
+  },
+  {
+    "id": "prod-031",
+    "name": "Matte Lipstick Set",
+    "slug": "matte-lipstick-set",
+    "description": "Matte Lipstick Set delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium matte lipstick set with excellent build quality.",
+    "price": 107.83,
+    "discountPrice": 91.66,
+    "images": [
+      "https://picsum.photos/seed/matte-lipstick-set0/800/800",
+      "https://picsum.photos/seed/matte-lipstick-set1/800/800",
+      "https://picsum.photos/seed/matte-lipstick-set2/800/800"
+    ],
+    "category": "Beauty",
+    "categorySlug": "beauty",
+    "stock": 34,
+    "rating": 4.5,
+    "reviewCount": 12,
+    "reviews": [
+      {
+        "id": "prod-31-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-31-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-31-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-31-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-31-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "matte-lipstick-set-var-0",
+        "color": "Black",
+        "price": 91.66,
+        "stock": 34,
+        "sku": "MATTE-LIPSTICK-SET-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 105,
+    "createdAt": "2026-05-06T14:14:44.053Z"
+  },
+  {
+    "id": "prod-032",
+    "name": "Natural Shampoo",
+    "slug": "natural-shampoo",
+    "description": "Natural Shampoo delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium natural shampoo with excellent build quality.",
+    "price": 46.89,
+    "discountPrice": 39.86,
+    "images": [
+      "https://picsum.photos/seed/natural-shampoo0/800/800",
+      "https://picsum.photos/seed/natural-shampoo1/800/800",
+      "https://picsum.photos/seed/natural-shampoo2/800/800"
+    ],
+    "category": "Beauty",
+    "categorySlug": "beauty",
+    "stock": 30,
+    "rating": 4.9,
+    "reviewCount": 36,
+    "reviews": [
+      {
+        "id": "prod-32-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-32-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-32-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-32-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-32-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "natural-shampoo-var-0",
+        "color": "Black",
+        "price": 39.86,
+        "stock": 37,
+        "sku": "NATURAL-SHAMPOO-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 87,
+    "createdAt": "2026-05-04T14:14:44.053Z"
+  },
+  {
+    "id": "prod-033",
+    "name": "Vitamin C Moisturizer",
+    "slug": "vitamin-c-moisturizer",
+    "description": "Vitamin C Moisturizer delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium vitamin c moisturizer with excellent build quality.",
+    "price": 171.16,
+    "discountPrice": 145.49,
+    "images": [
+      "https://picsum.photos/seed/vitamin-c-moisturizer0/800/800",
+      "https://picsum.photos/seed/vitamin-c-moisturizer1/800/800",
+      "https://picsum.photos/seed/vitamin-c-moisturizer2/800/800"
+    ],
+    "category": "Beauty",
+    "categorySlug": "beauty",
+    "stock": 28,
+    "rating": 4.2,
+    "reviewCount": 46,
+    "reviews": [
+      {
+        "id": "prod-33-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-33-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-33-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-33-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-33-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "vitamin-c-moisturizer-var-0",
+        "color": "Black",
+        "price": 145.49,
+        "stock": 42,
+        "sku": "VITAMIN-C-MOISTURIZER-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 87,
+    "createdAt": "2026-05-02T14:14:44.053Z"
+  },
+  {
+    "id": "prod-034",
+    "name": "Eyeshadow Palette",
+    "slug": "eyeshadow-palette",
+    "description": "Eyeshadow Palette delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium eyeshadow palette with excellent build quality.",
+    "price": 278.46,
+    "images": [
+      "https://picsum.photos/seed/eyeshadow-palette0/800/800",
+      "https://picsum.photos/seed/eyeshadow-palette1/800/800",
+      "https://picsum.photos/seed/eyeshadow-palette2/800/800"
+    ],
+    "category": "Beauty",
+    "categorySlug": "beauty",
+    "stock": 43,
+    "rating": 4.2,
+    "reviewCount": 34,
+    "reviews": [
+      {
+        "id": "prod-34-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-34-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-34-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-34-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-34-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "eyeshadow-palette-var-0",
+        "color": "Black",
+        "price": 278.46,
+        "stock": 30,
+        "sku": "EYESHADOW-PALETTE-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 72,
+    "createdAt": "2026-04-30T14:14:44.053Z"
+  },
+  {
+    "id": "prod-035",
+    "name": "Sunscreen SPF 50",
+    "slug": "sunscreen-spf-50",
+    "description": "Sunscreen SPF 50 delivers premium quality and modern design. Built for everyday use with attention to detail and durable materials. Perfect for those who value both style and functionality.",
+    "shortDescription": "Premium sunscreen spf 50 with excellent build quality.",
+    "price": 68.43,
+    "discountPrice": 58.17,
+    "images": [
+      "https://picsum.photos/seed/sunscreen-spf-500/800/800",
+      "https://picsum.photos/seed/sunscreen-spf-501/800/800",
+      "https://picsum.photos/seed/sunscreen-spf-502/800/800"
+    ],
+    "category": "Beauty",
+    "categorySlug": "beauty",
+    "stock": 16,
+    "rating": 4.1,
+    "reviewCount": 31,
+    "reviews": [
+      {
+        "id": "prod-35-rev-0",
+        "userId": "user-1",
+        "userName": "Alex M.",
+        "rating": 3,
+        "title": "Great product!",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-07-07T14:14:44.053Z"
+      },
+      {
+        "id": "prod-35-rev-1",
+        "userId": "user-2",
+        "userName": "Jordan K.",
+        "rating": 4,
+        "title": "Love it",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-30T14:14:44.053Z"
+      },
+      {
+        "id": "prod-35-rev-2",
+        "userId": "user-3",
+        "userName": "Taylor S.",
+        "rating": 5,
+        "title": "Good value",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-23T14:14:44.053Z"
+      },
+      {
+        "id": "prod-35-rev-3",
+        "userId": "user-4",
+        "userName": "Casey R.",
+        "rating": 3,
+        "title": "Exactly as described",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-16T14:14:44.053Z"
+      },
+      {
+        "id": "prod-35-rev-4",
+        "userId": "user-1",
+        "userName": "Morgan L.",
+        "rating": 4,
+        "title": "Would buy again",
+        "comment": "Really happy with this purchase. Quality exceeded my expectations.",
+        "createdAt": "2026-06-09T14:14:44.053Z"
+      }
+    ],
+    "variants": [
+      {
+        "id": "sunscreen-spf-50-var-0",
+        "color": "Black",
+        "price": 58.17,
+        "stock": 44,
+        "sku": "SUNSCREEN-SPF-50-STD"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium Materials",
+      "Warranty": "1 Year",
+      "Origin": "Imported"
+    },
+    "featured": false,
+    "isNew": true,
+    "popularity": 112,
+    "createdAt": "2026-04-28T14:14:44.054Z"
+  }
+]
