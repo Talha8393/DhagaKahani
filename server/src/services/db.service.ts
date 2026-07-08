@@ -3,7 +3,15 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { env } from '../config/env.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+function getModuleDir(): string {
+  try {
+    return path.dirname(fileURLToPath(import.meta.url));
+  } catch {
+    return path.join(process.cwd(), 'api');
+  }
+}
+
+const __dirname = getModuleDir();
 
 async function resolveSeedDir(): Promise<string> {
   const candidates = [

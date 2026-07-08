@@ -2,7 +2,12 @@ node_modules/
 dist/
 build/
 api/data/
+api/index.js
+api/index.cjs
+api/index.mjs
+api/_app.cjs
 api/handler.mjs
+api/handler.cjs
 .env
 *.log
 .DS_Store

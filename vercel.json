@@ -5,12 +5,12 @@
   "outputDirectory": "client/dist",
   "framework": null,
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/index.ts" },
+    { "source": "/api/(.*)", "destination": "/api/index.js" },
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ],
   "functions": {
-    "api/index.ts": {
-      "includeFiles": "api/data/**,api/handler.mjs",
+    "api/index.js": {
+      "includeFiles": "api/_app.cjs,api/data/**",
       "maxDuration": 30,
       "memory": 1024
     }
