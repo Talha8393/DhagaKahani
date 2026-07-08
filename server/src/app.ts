@@ -10,11 +10,39 @@ import adminRoutes from './routes/admin.routes.js';
 
 export const app = express();
 
-app.use(cors({ origin: env.clientUrl, credentials: true }));
+const allowedOrigins = new Set(
+  [env.clientUrl, process.env.CLIENT_URL, 'http://localhost:5173'].filter(Boolean) as string[],
+);
+
+if (process.env.VERCEL_URL) {
+  allowedOrigins.add(`https://${process.env.VERCEL_URL}`);
+}
+
+app.use(
+  cors({
+    origin(origin, callback) {
+      if (!origin || allowedOrigins.has(origin) || origin.endsWith('.vercel.app')) {
+        callback(null, origin ?? env.clientUrl);
+      } else {
+        callback(null, env.clientUrl);
+      }
+    },
+    credentials: true,
+  }),
+);
+
 app.use(express.json());
 
+// Vercel may strip /api prefix when routing to the serverless function
+app.use((req, _res, next) => {
+  if (env.isVercel && req.url && !req.url.startsWith('/api')) {
+    req.url = `/api${req.url.startsWith('/') ? req.url : `/${req.url}`}`;
+  }
+  next();
+});
+
 app.get('/api/health', (_req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', timestamp: new Date().toISOString(), env: env.isVercel ? 'vercel' : 'local' });
 });
 
 app.use('/api/auth', authRoutes);
