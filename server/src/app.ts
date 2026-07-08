@@ -33,11 +33,22 @@ app.use(
 
 app.use(express.json());
 
-// Vercel may strip /api prefix when routing to the serverless function
+// Vercel catch-all routes may expose slug segments via query.path
 app.use((req, _res, next) => {
-  if (env.isVercel && req.url && !req.url.startsWith('/api')) {
+  if (!env.isVercel) {
+    next();
+    return;
+  }
+
+  const pathParam = req.query.path;
+  if (pathParam) {
+    const segments = Array.isArray(pathParam) ? pathParam.join('/') : String(pathParam);
+    const qs = req.url?.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
+    req.url = `/api/${segments}${qs}`;
+  } else if (req.url && !req.url.startsWith('/api')) {
     req.url = `/api${req.url.startsWith('/') ? req.url : `/${req.url}`}`;
   }
+
   next();
 });
 

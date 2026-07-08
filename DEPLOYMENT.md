@@ -8,7 +8,7 @@ This guide fixes the common **404 on page refresh** and **API not working** issu
 
 1. **React Router SPA** — Routes like `/products` or `/cart` are client-side only. Vercel looked for a real file at that path and returned 404. Fixed with `vercel.json` rewrites to `index.html`.
 
-2. **Express API** — Vercel does not run a long-lived Node server. The API is deployed as a **serverless function** at `/api`.
+2. **Express API** — Vercel does not run a long-lived Node server. The API is deployed as a **serverless function** via `api/[...path].ts` (handles all `/api/*` routes). Do **not** rewrite `/api/*` to a single `/api` endpoint — that strips the path and breaks routes like `/api/health`.
 
 3. **Wrong root directory** — If Vercel's root was set to `client/` only, the API and rewrites were missing.
 
