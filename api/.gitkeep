@@ -1,2 +1,0 @@
-# API function files are generated during `npm run vercel-build`.
-# Vercel runs that build step before deploying `api/index.js`.

@@ -20,14 +20,7 @@ await build({
   logLevel: 'info',
 });
 
-// Small wrapper Vercel executes
-fs.writeFileSync(
-  'api/index.js',
-  `const serverless = require('serverless-http');\nconst { app } = require('./_app.cjs');\nmodule.exports = serverless(app);\n`,
-  'utf8',
-);
-
-for (const file of ['api/index.ts', 'api/index.cjs', 'api/index.mjs', 'api/handler.mjs', 'api/handler.cjs']) {
+for (const file of ['api/index.js', 'api/index.cjs', 'api/index.mjs']) {
   if (fs.existsSync(file)) fs.unlinkSync(file);
 }
 
