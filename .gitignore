@@ -2,6 +2,7 @@ node_modules/
 dist/
 build/
 api/data/
+api/handler.mjs
 .env
 *.log
 .DS_Store

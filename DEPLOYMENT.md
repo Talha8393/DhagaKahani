@@ -33,10 +33,13 @@ In your [Vercel Dashboard](https://vercel.com) → Project → **Settings** → 
 | **Root Directory** | `.` (repo root — **not** `client`) |
 | **Framework Preset** | Other |
 | **Build Command** | Leave empty (uses `vercel.json`) |
-| **Output Directory** | Leave empty (uses `vercel.json` `builds`) |
+| **Output Directory** | Leave empty (uses `vercel.json`) |
 | **Install Command** | Leave empty (uses `vercel.json`) |
+| **Node.js Version** | 20.x |
 
-> Important: Do **not** set Root Directory to `client/` — that skips the `api/` folder and the API will never deploy.
+> **Critical:** If Root Directory is set to `client/`, Vercel will **never deploy the API** (`api/` folder is skipped). Clear it or set to `.` (repository root).
+
+The build bundles the Express server into `api/handler.cjs` and copies JSON seed data to `api/data/`.
 
 ---
 
@@ -110,7 +113,11 @@ For a more reliable API with persistent data:
 
 | Problem | Fix |
 |---------|-----|
-| 404 on `/products`, `/cart`, etc. | Root must be repo root; `vercel.json` must include SPA rewrite |
+| `/api/health` returns 404 | Root Directory must be `.` not `client`; redeploy after pushing latest code |
+| `/api/health` returns 500 | Check Function logs; usually missing `api/data` — run `npm run vercel-build` locally to verify |
+| Frontend loads but no products | API not running — test `/api/health` first |
+| Build fails on Vercel | Run `npm run vercel-build` locally; fix any TypeScript errors |
+| Dashboard overrides config | Clear Build, Output, and Install commands in Vercel settings so `vercel.json` is used |
 | 404 on home page | Check **Output Directory** is `client/dist` |
 | API returns 404 | Root must not be `client/` only; `api/index.ts` must exist |
 | API 500 errors | Set `JWT_SECRET` env var; check Vercel function logs |

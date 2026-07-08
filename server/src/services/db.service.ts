@@ -7,6 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function resolveSeedDir(): Promise<string> {
   const candidates = [
+    path.join(__dirname, 'data'),
     path.join(__dirname, '../data'),
     path.join(__dirname, '../../src/data'),
     path.join(process.cwd(), 'api/data'),
