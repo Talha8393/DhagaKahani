@@ -6,8 +6,7 @@
   "framework": null,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api" },
-    { "handle": "filesystem" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
   ],
   "functions": {
     "api/index.ts": {
