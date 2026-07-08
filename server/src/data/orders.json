@@ -71,7 +71,7 @@
       "isDefault": true
     },
     "paymentMethod": "cod",
-    "status": "Shipped",
+    "status": "Delivered",
     "subtotal": 139.97,
     "tax": 11.2,
     "shipping": 0,
@@ -79,7 +79,7 @@
     "total": 141.17,
     "couponCode": "SAVE10",
     "createdAt": "2025-06-10T08:15:00.000Z",
-    "updatedAt": "2025-06-12T09:00:00.000Z"
+    "updatedAt": "2026-07-08T17:03:33.350Z"
   },
   {
     "id": "order-003",
@@ -202,8 +202,8 @@
     "discount": 0,
     "total": 1090.83,
     "userId": "user-1",
-    "status": "Processing",
+    "status": "Delivered",
     "createdAt": "2026-07-07T14:36:02.451Z",
-    "updatedAt": "2026-07-07T14:36:02.451Z"
+    "updatedAt": "2026-07-08T17:03:21.248Z"
   }
 ]

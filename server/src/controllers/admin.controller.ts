@@ -1,6 +1,7 @@
 import type { Request, Response } from 'express';
 import { adminService } from '../services/admin.service.js';
 import { asyncHandler } from '../middleware/errorHandler.js';
+import { param } from '../utils/params.js';
 
 export const getDashboard = asyncHandler(async (_req: Request, res: Response) => {
   const stats = await adminService.getDashboardStats();
@@ -18,12 +19,12 @@ export const createProduct = asyncHandler(async (req: Request, res: Response) =>
 });
 
 export const updateProduct = asyncHandler(async (req: Request, res: Response) => {
-  const product = await adminService.updateProduct(req.params.id, req.body);
+  const product = await adminService.updateProduct(param(req.params.id), req.body);
   res.json(product);
 });
 
 export const deleteProduct = asyncHandler(async (req: Request, res: Response) => {
-  const result = await adminService.deleteProduct(req.params.id);
+  const result = await adminService.deleteProduct(param(req.params.id));
   res.json(result);
 });
 
@@ -33,6 +34,6 @@ export const getAdminOrders = asyncHandler(async (_req: Request, res: Response) 
 });
 
 export const updateOrderStatus = asyncHandler(async (req: Request, res: Response) => {
-  const order = await adminService.updateOrderStatus(req.params.id, req.body.status);
+  const order = await adminService.updateOrderStatus(param(req.params.id), req.body.status);
   res.json(order);
 });

@@ -1,6 +1,7 @@
 import type { Request, Response } from 'express';
 import { orderService } from '../services/order.service.js';
 import { asyncHandler } from '../middleware/errorHandler.js';
+import { param } from '../utils/params.js';
 
 export const getOrders = asyncHandler(async (req: Request, res: Response) => {
   const orders = await orderService.getByUser(req.user!.userId);
@@ -8,7 +9,7 @@ export const getOrders = asyncHandler(async (req: Request, res: Response) => {
 });
 
 export const getOrder = asyncHandler(async (req: Request, res: Response) => {
-  const order = await orderService.getById(req.params.id, req.user!.userId);
+  const order = await orderService.getById(param(req.params.id), req.user!.userId);
   res.json(order);
 });
 
@@ -26,7 +27,8 @@ export const mockPayment = asyncHandler(async (req: Request, res: Response) => {
   const { simulateFailure } = req.body;
   // EXTENSION: Integrate Stripe/PayPal here
   if (simulateFailure) {
-    return res.status(402).json({ success: false, message: 'Payment declined (mock)' });
+    res.status(402).json({ success: false, message: 'Payment declined (mock)' });
+    return;
   }
   res.json({ success: true, transactionId: `txn_mock_${Date.now()}` });
 });

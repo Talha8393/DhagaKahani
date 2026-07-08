@@ -189,6 +189,7 @@ CLIENT_URL=http://localhost:5173
 | Document | Audience | Contents |
 |----------|----------|----------|
 | [USER_GUIDE.md](./USER_GUIDE.md) | End users | Shopping, checkout, account, admin panel |
+| [DEPLOYMENT.md](./DEPLOYMENT.md) | Developers | **Vercel deployment (fixes 404 errors)** |
 | README.md | Developers | Setup, architecture, API, extension points |
 
 ---

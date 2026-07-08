@@ -1,6 +1,7 @@
 import type { Request, Response } from 'express';
 import { userService } from '../services/user.service.js';
 import { asyncHandler } from '../middleware/errorHandler.js';
+import { param } from '../utils/params.js';
 
 export const updateProfile = asyncHandler(async (req: Request, res: Response) => {
   const user = await userService.updateProfile(req.user!.userId, req.body);
@@ -18,12 +19,12 @@ export const addAddress = asyncHandler(async (req: Request, res: Response) => {
 });
 
 export const updateAddress = asyncHandler(async (req: Request, res: Response) => {
-  const address = await userService.updateAddress(req.user!.userId, req.params.id, req.body);
+  const address = await userService.updateAddress(req.user!.userId, param(req.params.id), req.body);
   res.json(address);
 });
 
 export const deleteAddress = asyncHandler(async (req: Request, res: Response) => {
-  const result = await userService.deleteAddress(req.user!.userId, req.params.id);
+  const result = await userService.deleteAddress(req.user!.userId, param(req.params.id));
   res.json(result);
 });
 

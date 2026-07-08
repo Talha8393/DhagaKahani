@@ -1,6 +1,7 @@
 import type { Request, Response } from 'express';
 import { productService } from '../services/product.service.js';
 import { asyncHandler } from '../middleware/errorHandler.js';
+import { param } from '../utils/params.js';
 
 export const getProducts = asyncHandler(async (req: Request, res: Response) => {
   const result = await productService.getAll({
@@ -20,17 +21,17 @@ export const getProducts = asyncHandler(async (req: Request, res: Response) => {
 });
 
 export const getProduct = asyncHandler(async (req: Request, res: Response) => {
-  const product = await productService.getById(req.params.id);
+  const product = await productService.getById(param(req.params.id));
   res.json(product);
 });
 
 export const getProductBySlug = asyncHandler(async (req: Request, res: Response) => {
-  const product = await productService.getBySlug(req.params.slug);
+  const product = await productService.getBySlug(param(req.params.slug));
   res.json(product);
 });
 
 export const getRelatedProducts = asyncHandler(async (req: Request, res: Response) => {
-  const products = await productService.getRelated(req.params.id);
+  const products = await productService.getRelated(param(req.params.id));
   res.json(products);
 });
 
