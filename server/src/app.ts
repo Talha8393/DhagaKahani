@@ -33,19 +33,27 @@ app.use(
 
 app.use(express.json());
 
-// Vercel catch-all routes may expose slug segments via query.path
+// Vercel rewrites forward /api/* to the serverless function; restore full path when needed
 app.use((req, _res, next) => {
   if (!env.isVercel) {
     next();
     return;
   }
 
-  const pathParam = req.query.path;
-  if (pathParam) {
-    const segments = Array.isArray(pathParam) ? pathParam.join('/') : String(pathParam);
-    const qs = req.url?.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
-    req.url = `/api/${segments}${qs}`;
-  } else if (req.url && !req.url.startsWith('/api')) {
+  const originalUrl = req.headers['x-vercel-original-url'] ?? req.headers['x-forwarded-uri'];
+  if (typeof originalUrl === 'string') {
+    try {
+      const pathname = originalUrl.startsWith('http')
+        ? new URL(originalUrl).pathname
+        : originalUrl.split('?')[0];
+      const qs = req.url?.includes('?') ? req.url.slice(req.url.indexOf('?')) : '';
+      req.url = `${pathname}${qs}`;
+    } catch {
+      // fall through to default handling
+    }
+  }
+
+  if (req.url && !req.url.startsWith('/api')) {
     req.url = `/api${req.url.startsWith('/') ? req.url : `/${req.url}`}`;
   }
 

@@ -8,7 +8,17 @@ This guide fixes the common **404 on page refresh** and **API not working** issu
 
 1. **React Router SPA** — Routes like `/products` or `/cart` are client-side only. Vercel looked for a real file at that path and returned 404. Fixed with `vercel.json` rewrites to `index.html`.
 
-2. **Express API** — Vercel does not run a long-lived Node server. The API is deployed as a **serverless function** via `api/[...path].ts` (handles all `/api/*` routes). Do **not** rewrite `/api/*` to a single `/api` endpoint — that strips the path and breaks routes like `/api/health`.
+2. **Express API** — Vercel does not run a long-lived Node server. The API is deployed as a **serverless function** at `api/index.ts`, with explicit routing in `vercel.json`:
+
+```json
+"routes": [
+  { "src": "/api/(.*)", "dest": "/api/index.ts" },
+  { "handle": "filesystem" },
+  { "src": "/(.*)", "dest": "/index.html" }
+]
+```
+
+Seed JSON is copied to `api/data/` during build so the function can read it at runtime.
 
 3. **Wrong root directory** — If Vercel's root was set to `client/` only, the API and rewrites were missing.
 
@@ -22,9 +32,11 @@ In your [Vercel Dashboard](https://vercel.com) → Project → **Settings** → 
 |---------|--------|
 | **Root Directory** | `.` (repo root — **not** `client`) |
 | **Framework Preset** | Other |
-| **Build Command** | `npm run vercel-build` *(or leave empty — uses vercel.json)* |
-| **Output Directory** | `client/dist` |
-| **Install Command** | `npm install && npm install --prefix client && npm install --prefix server` |
+| **Build Command** | Leave empty (uses `vercel.json`) |
+| **Output Directory** | Leave empty (uses `vercel.json` `builds`) |
+| **Install Command** | Leave empty (uses `vercel.json`) |
+
+> Important: Do **not** set Root Directory to `client/` — that skips the `api/` folder and the API will never deploy.
 
 ---
 
