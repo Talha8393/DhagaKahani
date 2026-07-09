@@ -48,10 +48,9 @@ async function ensureDataReady() {
   if (!dataDirReady) {
     dataDirReady = (async () => {
       const SEED_DIR = await getSeedDir();
-      const DATA_DIR = path.join('/tmp', 'shophub-data');
-      await fs.mkdir(DATA_DIR, { recursive: true });
+      await fs.mkdir(VERCEL_DATA_DIR, { recursive: true });
       for (const file of ['products.json', 'users.json', 'orders.json', 'coupons.json']) {
-        const dest = path.join(DATA_DIR, file);
+        const dest = path.join(VERCEL_DATA_DIR, file);
         try {
           await fs.access(dest);
         } catch {
@@ -63,17 +62,13 @@ async function ensureDataReady() {
   return dataDirReady;
 }
 
+const VERCEL_DATA_DIR = path.join('/tmp', 'shophub-data');
+
 async function getDataDir(): Promise<string> {
   if (env.isVercel) {
-    const bundledData = path.join(__dirname, 'data');
-    try {
-      await fs.access(path.join(bundledData, 'products.json'));
-      return bundledData;
-    } catch {
-      // Writable fallback for admin mutations
-      await ensureDataReady();
-      return path.join('/tmp', 'shophub-data');
-    }
+    // Bundled api/data is read-only on Vercel — always read/write via /tmp
+    await ensureDataReady();
+    return VERCEL_DATA_DIR;
   }
   return getSeedDir();
 }
@@ -88,9 +83,14 @@ export class DbService {
   }
 
   private async writeFile<T>(filename: string, data: T): Promise<void> {
-    const dataDir = await getDataDir();
-    const filePath = path.join(dataDir, filename);
-    await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
+    try {
+      const dataDir = await getDataDir();
+      const filePath = path.join(dataDir, filename);
+      await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
+    } catch (error) {
+      console.error(`Failed to write ${filename}:`, error);
+      throw error;
+    }
   }
 
   async getProducts<T>() {
