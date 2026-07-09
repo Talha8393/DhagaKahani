@@ -1,6 +1,6 @@
-# ShopHub — User Guide
+# DhagaKahani — User Guide
 
-This guide explains how to use the ShopHub ecommerce website as a **customer** or **administrator**.
+This guide explains how to use the DhagaKahani ecommerce website as a **customer** or **administrator**.
 
 ---
 

@@ -17,7 +17,7 @@ export function AccountLayout() {
 
   return (
     <>
-      <PageMeta title="My Account" description="Manage your ShopHub profile, orders, addresses, and wishlist." noIndex />
+      <PageMeta title="My Account" description="Manage your Dhaga Kahani profile, orders, addresses, and wishlist." noIndex />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-1">My Account</h1>
         <p className="text-gray-500 mb-6 sm:mb-8">Welcome back, {user?.firstName}!</p>

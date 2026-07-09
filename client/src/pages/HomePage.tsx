@@ -6,8 +6,8 @@ import { useCategories, useProducts } from '../hooks/useProducts';
 
 export default function HomePage() {
   const { categories, loading: catLoading } = useCategories();
-  const { products: featured, loading: featLoading } = useProducts({ featured: true, limit: 4 });
-  const { products: newArrivals, loading: newLoading } = useProducts({ isNew: true, limit: 4 });
+  const { products: featured, loading: featLoading } = useProducts({ featured: true, sort: 'newest', limit: 4 });
+  const { products: newArrivals, loading: newLoading } = useProducts({ isNew: true, sort: 'newest', limit: 4 });
 
   return (
     <>

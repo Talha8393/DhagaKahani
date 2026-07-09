@@ -62,7 +62,10 @@ async function ensureDataReady() {
   return dataDirReady;
 }
 
-const VERCEL_DATA_DIR = path.join('/tmp', 'shophub-data');
+const VERCEL_DATA_DIR = path.join('/tmp', 'dhaga-kahani-data');
+
+// Keep reads/writes consistent within a warm Vercel serverless instance
+const memoryCache = new Map<string, unknown>();
 
 async function getDataDir(): Promise<string> {
   if (env.isVercel) {
@@ -76,14 +79,28 @@ async function getDataDir(): Promise<string> {
 // EXTENSION: Replace this service with a real database adapter (PostgreSQL, MongoDB, etc.)
 export class DbService {
   private async readFile<T>(filename: string): Promise<T> {
+    if (env.isVercel && memoryCache.has(filename)) {
+      return memoryCache.get(filename) as T;
+    }
+
     const dataDir = await getDataDir();
     const filePath = path.join(dataDir, filename);
     const content = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(content) as T;
+    const parsed = JSON.parse(content) as T;
+
+    if (env.isVercel) {
+      memoryCache.set(filename, parsed);
+    }
+
+    return parsed;
   }
 
   private async writeFile<T>(filename: string, data: T): Promise<void> {
     try {
+      if (env.isVercel) {
+        memoryCache.set(filename, data);
+      }
+
       const dataDir = await getDataDir();
       const filePath = path.join(dataDir, filename);
       await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');

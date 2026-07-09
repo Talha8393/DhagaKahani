@@ -73,6 +73,6 @@ export const useCartStore = create<CartState>()(
 
       getItemCount: () => get().items.reduce((sum, i) => sum + i.quantity, 0),
     }),
-    { name: 'shophub-cart' },
+    { name: 'dhaga-kahani-cart' },
   ),
 );

@@ -1,6 +1,6 @@
 # Deploying to Vercel
 
-This guide fixes the common **404 on page refresh** and **API not working** issues when deploying ShopHub to Vercel.
+This guide fixes the common **404 on page refresh** and **API not working** issues when deploying Dhaga Kahani to Vercel.
 
 ---
 

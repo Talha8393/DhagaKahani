@@ -1,5 +1,39 @@
 [
   {
+    "name": "New Product 2",
+    "description": "fdfdfdsf",
+    "shortDescription": "wfdfdsfs",
+    "price": 50,
+    "images": [
+      "https://cdn-icons-png.flaticon.com/512/1804/1804486.png"
+    ],
+    "category": "Electronics",
+    "categorySlug": "electronics",
+    "stock": 10,
+    "rating": 4,
+    "reviewCount": 0,
+    "reviews": [],
+    "variants": [
+      {
+        "id": "var-new",
+        "price": 50,
+        "stock": 10,
+        "sku": "NEW-SKU"
+      }
+    ],
+    "specs": {
+      "Brand": "StoreBrand",
+      "Material": "Premium",
+      "Warranty": "1 Year"
+    },
+    "featured": true,
+    "isNew": true,
+    "popularity": 50,
+    "id": "fd59c589-dcf1-4a96-9c75-0ebefd536f71",
+    "slug": "new-product-2",
+    "createdAt": "2026-07-09T06:20:24.990Z"
+  },
+  {
     "id": "prod-001",
     "name": "Wireless Bluetooth Headphones",
     "slug": "wireless-bluetooth-headphones",

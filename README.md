@@ -1,4 +1,4 @@
-# ShopHub — Ecommerce Store
+# DhagaKahani — Ecommerce Store
 
 A full-featured demo ecommerce website with a React storefront and Express mock API. Built for learning, prototyping, and as a foundation for production integration.
 

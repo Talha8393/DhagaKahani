@@ -49,7 +49,7 @@ export default function SignupPage() {
       <PageMeta title="Create Account" />
       <div className="max-w-md mx-auto px-4 py-12">
         <h1 className="text-2xl font-bold text-gray-900 mb-2 text-center">Create Account</h1>
-        <p className="text-gray-500 text-center mb-8">Join ShopHub for a personalized shopping experience</p>
+        <p className="text-gray-500 text-center mb-8">Join Dhaga Kahani for a personalized shopping experience</p>
 
         <form onSubmit={handleSubmit} className="bg-white border border-gray-200 rounded-xl p-6 space-y-4">
           <div className="grid grid-cols-2 gap-4">

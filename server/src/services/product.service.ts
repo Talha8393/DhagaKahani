@@ -52,7 +52,10 @@ export class ProductService {
       );
     }
 
-    products = this.sortProducts(products, filters.sort);
+    products = this.sortProducts(
+      products,
+      filters.sort ?? (filters.featured || filters.isNew ? 'newest' : undefined),
+    );
 
     const page = filters.page ?? 1;
     const limit = filters.limit ?? 12;
@@ -108,7 +111,7 @@ export class ProductService {
       slug: slugify(data.name),
       createdAt: new Date().toISOString(),
     };
-    products.push(product);
+    products.unshift(product);
     await db.saveProducts(products);
     return product;
   }

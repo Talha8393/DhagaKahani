@@ -19,12 +19,12 @@ function setMeta(name: string, content: string, attr: 'name' | 'property' = 'nam
 
 export function PageMeta({ title, description, noIndex }: PageMetaProps) {
   const location = useLocation();
-  const fullTitle = title === 'Home' ? 'ShopHub - Quality Products Online' : `${title} | ShopHub`;
+  const fullTitle = title === 'Home' ? 'Dhaga Kahani - Quality Products Online' : `${title} | Dhaga Kahani`;
 
   useEffect(() => {
     document.title = fullTitle;
 
-    const desc = description || 'ShopHub — your one-stop shop for electronics, clothing, home goods, and more. Free shipping on orders over $75.';
+    const desc = description || 'Dhaga Kahani — your one-stop shop for electronics, clothing, home goods, and more. Free shipping on orders over $75.';
     setMeta('description', desc);
     setMeta('og:title', fullTitle, 'property');
     setMeta('og:description', desc, 'property');
