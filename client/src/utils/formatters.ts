@@ -1,12 +1,17 @@
+export const CURRENCY = {
+  code: 'PKR',
+  label: 'PKR',
+} as const;
+
 export function formatPrice(amount: number): string {
-  return new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-  }).format(amount);
+  return `${CURRENCY.label} ${amount.toLocaleString('en-PK', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2,
+  })}`;
 }
 
 export function formatDate(date: string): string {
-  return new Intl.DateTimeFormat('en-US', {
+  return new Intl.DateTimeFormat('en-PK', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',

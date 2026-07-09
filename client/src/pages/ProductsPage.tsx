@@ -8,6 +8,7 @@ import { Pagination } from '../components/ui/Pagination';
 import { Input } from '../components/ui/Input';
 import { useDebounce } from '../hooks/useDebounce';
 import { useProducts, useCategories } from '../hooks/useProducts';
+import { formatPrice, getEffectivePrice } from '../utils/formatters';
 
 export default function ProductsPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -134,7 +135,7 @@ export default function ProductsPage() {
                         <h3 className="font-medium text-gray-900">{product.name}</h3>
                         <p className="text-sm text-gray-500 mt-1 line-clamp-2">{product.shortDescription}</p>
                         <p className="font-bold text-gray-900 mt-2">
-                          ${(product.discountPrice ?? product.price).toFixed(2)}
+                          {formatPrice(getEffectivePrice(product.price, product.discountPrice))}
                         </p>
                       </div>
                     </Link>

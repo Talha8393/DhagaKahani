@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '../ui/Button';
+import { formatPrice } from '../../utils/formatters';
+import { FREE_SHIPPING_THRESHOLD } from '../../utils/constants';
 
 const slides = [
   {
@@ -21,7 +23,7 @@ const slides = [
     bg: 'from-gray-900/80 to-gray-600/60',
   },
   {
-    title: 'Free Shipping Over $75',
+    title: `Free Shipping Over ${formatPrice(FREE_SHIPPING_THRESHOLD)}`,
     subtitle: 'On all orders — no code needed',
     cta: 'Start Shopping',
     link: '/products',

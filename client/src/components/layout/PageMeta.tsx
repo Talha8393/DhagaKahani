@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { formatPrice } from '../../utils/formatters';
+import { FREE_SHIPPING_THRESHOLD } from '../../utils/constants';
 
 interface PageMetaProps {
   title: string;
@@ -24,7 +26,7 @@ export function PageMeta({ title, description, noIndex }: PageMetaProps) {
   useEffect(() => {
     document.title = fullTitle;
 
-    const desc = description || 'Dhaga Kahani — your one-stop shop for electronics, clothing, home goods, and more. Free shipping on orders over $75.';
+    const desc = description || `Dhaga Kahani — your one-stop shop for electronics, clothing, home goods, and more. Free shipping on orders over ${formatPrice(FREE_SHIPPING_THRESHOLD)}.`;
     setMeta('description', desc);
     setMeta('og:title', fullTitle, 'property');
     setMeta('og:description', desc, 'property');

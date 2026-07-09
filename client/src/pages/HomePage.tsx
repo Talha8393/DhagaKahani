@@ -3,6 +3,8 @@ import { HeroCarousel } from '../components/home/HeroCarousel';
 import { CategoryShowcase } from '../components/home/CategoryShowcase';
 import { ProductSection } from '../components/home/ProductSection';
 import { useCategories, useProducts } from '../hooks/useProducts';
+import { formatPrice } from '../utils/formatters';
+import { FREE_SHIPPING_THRESHOLD } from '../utils/constants';
 
 export default function HomePage() {
   const { categories, loading: catLoading } = useCategories();
@@ -11,7 +13,7 @@ export default function HomePage() {
 
   return (
     <>
-      <PageMeta title="Home" description="Shop quality products at great prices. Free shipping on orders over $75." />
+      <PageMeta title="Home" description={`Shop quality products at great prices. Free shipping on orders over ${formatPrice(FREE_SHIPPING_THRESHOLD)}.`} />
       <HeroCarousel />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

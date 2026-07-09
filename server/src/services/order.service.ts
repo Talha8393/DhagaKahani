@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import { db } from './db.service.js';
+import { formatPrice } from '../utils/formatters.js';
 import { generateOrderNumber } from '../utils/helpers.js';
 import { AppError } from '../middleware/errorHandler.js';
 import type { Order, OrderStatus, Address, Coupon } from '../types/index.js';
@@ -67,7 +68,7 @@ export class OrderService {
     const coupon = coupons.find((c) => c.code.toUpperCase() === code.toUpperCase() && c.active);
     if (!coupon) throw new AppError(400, 'Invalid coupon code');
     if (subtotal < coupon.minOrder) {
-      throw new AppError(400, `Minimum order of $${coupon.minOrder} required for this coupon`);
+      throw new AppError(400, `Minimum order of ${formatPrice(coupon.minOrder)} required for this coupon`);
     }
     const discount =
       coupon.type === 'percentage'

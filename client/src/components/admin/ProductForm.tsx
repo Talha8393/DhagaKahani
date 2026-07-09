@@ -43,8 +43,8 @@ export function ProductForm({ data, onChange }: ProductFormProps) {
         />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <Input label="Price ($)" type="number" min={0} step={0.01} value={data.price} onChange={(e) => update('price', parseFloat(e.target.value) || 0)} required />
-        <Input label="Discount Price ($)" type="number" min={0} step={0.01} value={data.discountPrice ?? ''} onChange={(e) => update('discountPrice', e.target.value ? parseFloat(e.target.value) : undefined)} />
+        <Input label="Price (PKR)" type="number" min={0} step={1} value={data.price} onChange={(e) => update('price', parseFloat(e.target.value) || 0)} required />
+        <Input label="Discount Price (PKR)" type="number" min={0} step={1} value={data.discountPrice ?? ''} onChange={(e) => update('discountPrice', e.target.value ? parseFloat(e.target.value) : undefined)} />
         <Input label="Stock" type="number" min={0} value={data.stock} onChange={(e) => update('stock', parseInt(e.target.value) || 0)} required />
       </div>
       <div>
