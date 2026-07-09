@@ -65,8 +65,15 @@ async function ensureDataReady() {
 
 async function getDataDir(): Promise<string> {
   if (env.isVercel) {
-    await ensureDataReady();
-    return path.join('/tmp', 'shophub-data');
+    const bundledData = path.join(__dirname, 'data');
+    try {
+      await fs.access(path.join(bundledData, 'products.json'));
+      return bundledData;
+    } catch {
+      // Writable fallback for admin mutations
+      await ensureDataReady();
+      return path.join('/tmp', 'shophub-data');
+    }
   }
   return getSeedDir();
 }

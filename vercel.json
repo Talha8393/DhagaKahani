@@ -10,8 +10,8 @@
   ],
   "functions": {
     "api/index.ts": {
-      "includeFiles": "api/_app.cjs,api/data/**",
-      "maxDuration": 30,
+      "includeFiles": "api/**",
+      "maxDuration": 60,
       "memory": 1024
     }
   }
